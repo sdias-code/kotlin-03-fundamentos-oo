@@ -7,9 +7,11 @@ fun main(){
     val jonas = Gerente2(
         nome = "Jonas Cabral Nunes",
         cpf = "222.222.222-444",
-        salario = 5000.0
+        salario = 5000.0,
+        senha = "senha123"
     )
 
     ImprimeRelatorioFuncionario2.imprime(jonas)
+    TesteAutenticacao2().autentica(jonas)
 }
 
